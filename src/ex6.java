@@ -4,7 +4,7 @@ public class ex6 {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
 
-        System.out.println("Digite um número para que seu fatorial seja calculado: ");
+        System.out.print("Digite um número para que seu fatorial seja calculado: ");
         int numero = leitura.nextInt();
         int numeroDecaindo = numero;
         int fatorial = 1;

@@ -6,7 +6,7 @@ public class ex3 {
 
         System.out.println("1. Calcular área do quadrado");
         System.out.println("2. Calcular área do círculo");
-        System.out.println("Digite sua opção: ");
+        System.out.print("Digite sua opção: ");
         int opcao = leitura.nextInt();
 
         switch (opcao) {

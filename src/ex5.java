@@ -4,7 +4,7 @@ public class ex5 {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
 
-        System.out.println("Digite um número para saber se ele é par ou ímpar: ");
+        System.out.print("Digite um número para saber se ele é par ou ímpar: ");
         int numero = leitura.nextInt();
 
         if (numero % 2 == 0) {
